@@ -27,7 +27,8 @@ input{
     border: 0.01px solid gray;
     border-radius: 4px;
     opacity: 0.6;
-    font-family: fe;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 strong{
     background-image: none;
@@ -42,6 +43,8 @@ strong{
     align-items: center;
     justify-content: center; 
     text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 .seconddiv{
     width: 50%;
@@ -51,6 +54,8 @@ strong{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 .demo{
     height: 5vh;
