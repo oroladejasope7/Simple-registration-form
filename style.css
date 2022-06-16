@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin-top: 5%;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 5vh;
+    width: 80%;
+    background-image: none;
+    background-color: transparent;
+    border: 0.01px solid gray;
+    border-radius: 4px;
+    opacity: 0.6;
+    font-family: fe;
+}
+strong{
+    background-image: none;
+    background-color: transparent;
+}
+.firstdiv{
+    width: 50%;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: left;
+}
+.seconddiv{
+    width: 50%;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.demo{
+    height: 5vh;
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 2px grey;
+}
+#formpg{
+    background-image: none;
+    background-color: transparent;
+    color: black;
+    opacity: 0.5;
+}
+button{
+    height: 5vh;
+    width: 80%;
+    background-image: none;
+    background-color: hsl(154, 59%, 51%);
+    border: unset;
+    border-radius: 4px;
+    color: white;
+}
+button:hover{
+    height: 5vh;
+    width: 80%;
+    background-image: none;
+    background-color: hsl(154, 59%, 51%);
+    border: unset;
+    border-radius: 4px;
+    color: white;
+    opacity: 0.5;
+}
+.regform{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 8px;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 4px 4px grey;
+}
+@media (max-width:375px) {
+    *{
+        background-image: url(./bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%);
+        text-align: center;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .container{
+        width: 35px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .firstdiv{
+        height: 290px;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .seconddiv{
+        margin-top: -70px;
+        height: 600px;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .demo{
+        height: 10vh;
+        width: 320px;
+    }
+    button{
+        height: 5vh;
+        width: 80%;
+        background-image: none;
+        background-color: hsl(154, 59%, 51%);
+        border: unset;
+        border-radius: 4px;
+        color: white;
+    }
+    button:hover{
+        height: 5vh;
+        width: 80%;
+        background-image: none;
+        background-color: hsl(154, 59%, 51%);
+        border: unset;
+        border-radius: 4px;
+        color: white;
+        opacity: 0.5;
+    }
+}
